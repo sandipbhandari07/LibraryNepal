@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".grade3"
+    android:id="@+id/drawer_layout_grade3"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    >
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view_grd3"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/bottom_nav"
+        android:layout_gravity="start"
+        />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_grd3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <LinearLayout
+            android:id="@+id/llgrd3"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back_btn_grd3"
+                android:layout_width="53dp"
+                android:layout_height="46dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                app:srcCompat="@drawable/backwardicon2" />
+
+            <TextView
+                android:id="@+id/grd3_lowersecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="LOWER SECONDARY"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/grd3_secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="SECONDARY"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/grd3_highersecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="HIGHER SECONDARY"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/llgrd3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:paddingLeft="15dp"
+                    android:text="GRADE 3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="253dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="165dp"
+                        android:layout_height="229dp"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="160dp"
+                            android:layout_height="161dp"
+                            app:srcCompat="@drawable/class3english" />
+
+                        <Button
+
+                            android:id="@+id/class3english"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/border_book_name"
+                            android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
+                            android:drawableTint="@color/white"
+                            android:text="English"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            app:backgroundTint="#d97077" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="164dp"
+                        android:layout_height="228dp"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView26"
+                            android:layout_width="160dp"
+                            android:layout_height="161dp"
+                            app:srcCompat="@drawable/class3math" />
+
+                        <Button
+                            android:id="@+id/class3math"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/border_book_name"
+                            android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
+                            android:drawableTint="@color/white"
+                            android:text="Mathematics"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            android:textStyle="normal"
+                            app:backgroundTint="#d97077" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="253dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="165dp"
+                        android:layout_height="229dp"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView8dasdas"
+                            android:layout_width="160dp"
+                            android:layout_height="161dp"
+                            app:srcCompat="@drawable/class3myenglish" />
+
+                        <Button
+
+                            android:id="@+id/class3myenglish"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/border_book_name"
+                            android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
+                            android:drawableTint="@color/white"
+                            android:text="My English"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:backgroundTint="#d97077" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="164dp"
+                        android:layout_height="228dp"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView26dwdsd"
+                            android:layout_width="160dp"
+                            android:layout_height="161dp"
+                            app:srcCompat="@drawable/class3science" />
+
+                        <Button
+                            android:id="@+id/class3science"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/border_book_name"
+                            android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
+                            android:drawableTint="@color/white"
+                            android:text="science,health and PE"
+                            android:textColor="#FFFFFF"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            app:backgroundTint="#d97077" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="253dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="165dp"
+                        android:layout_height="229dp"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView8dasdasdasda"
+                            android:layout_width="160dp"
+                            android:layout_height="161dp"
+                            app:srcCompat="@drawable/class3socialss" />
+
+                        <Button
+
+                            android:id="@+id/class3socialss"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/border_book_name"
+                            android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
+                            android:drawableTint="@color/white"
+                            android:text="social studies"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:backgroundTint="#d97077" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

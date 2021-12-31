@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="library.files.librarynepal" >
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:fullBackupOnly="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.LibraryNepal"
+        tools:targetApi="lollipop">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1581341295682347~3949970873"/>
+
+        <activity
+            android:name=".solutionwilladdsoon"
+            android:exported="true" />
+        <activity
+            android:name=".class10ganit"
+            android:exported="true" />
+        <activity
+            android:name=".class10optscience"
+            android:exported="true" />
+        <activity
+            android:name=".class10science"
+            android:exported="true" />
+        <activity
+            android:name=".class10pop"
+            android:exported="true" />
+        <activity
+            android:name=".class10optmath"
+            android:exported="true" />
+        <activity
+            android:name=".class10nepali"
+            android:exported="true" />
+        <activity
+            android:name=".class10math"
+            android:exported="true" />
+        <activity
+            android:name=".class10hpe"
+            android:exported="true" />
+        <activity
+            android:name=".class9ganit"
+            android:exported="true" />
+        <activity
+            android:name=".class10english"
+            android:exported="true" />
+        <activity
+            android:name=".class10cs"
+            android:exported="true" />
+        <activity
+            android:name=".class9science"
+            android:exported="true" />
+        <activity
+            android:name=".class9optscience"
+            android:exported="true" />
+        <activity
+            android:name=".class9optenglish"
+            android:exported="true" />
+        <activity
+            android:name=".class9nepali"
+            android:exported="true" />
+        <activity
+            android:name=".class9math"
+            android:exported="true" />
+        <activity
+            android:name=".class9english"
+            android:exported="true" />
+        <activity
+            android:name=".class9computer"
+            android:exported="true" />
+        <activity
+            android:name=".class8science"
+            android:exported="true" />
+        <activity
+            android:name=".class8math"
+            android:exported="true" />
+        <activity
+            android:name=".class8moraledn"
+            android:exported="true" />
+        <activity
+            android:name=".class8hpe"
+            android:exported="true" />
+        <activity
+            android:name=".class8english"
+            android:exported="true" />
+        <activity
+            android:name=".class7science"
+            android:exported="true" />
+        <activity
+            android:name=".class7occupation"
+            android:exported="true" />
+        <activity
+            android:name=".class7moraledn"
+            android:exported="true" />
+        <activity
+            android:name=".class7hpe"
+            android:exported="true" />
+        <activity
+            android:name=".class7english"
+            android:exported="true" />
+        <activity
+            android:name=".class6science"
+            android:exported="true" />
+        <activity
+            android:name=".class6occupation"
+            android:exported="true" />
+        <activity
+            android:name=".class6moraledn"
+            android:exported="true" />
+        <activity
+            android:name=".class6hpe"
+            android:exported="true" />
+        <activity
+            android:name=".class6english"
+            android:exported="true" />
+        <activity
+            android:name=".grade12"
+            android:exported="true" />
+        <activity
+            android:name=".grade11"
+            android:exported="true" />
+        <activity
+            android:name=".grade10"
+            android:exported="true" />
+        <activity
+            android:name=".grade9"
+            android:exported="true" />
+        <activity
+            android:name=".grade8"
+            android:exported="true" />
+        <activity
+            android:name=".grade7"
+            android:exported="true" />
+        <activity
+            android:name=".grade6"
+            android:exported="true" />
+        <activity
+            android:name=".grade5"
+            android:exported="true" />
+        <activity
+            android:name=".grade4"
+            android:exported="true" />
+        <activity
+            android:name=".grade3"
+            android:exported="true" />
+        <activity
+            android:name=".grade2"
+            android:exported="true" />
+        <activity
+            android:name=".grade1"
+            android:exported="true" />
+        <activity
+            android:name=".class5ganit"
+            android:exported="true" />
+        <activity
+            android:name=".class5science"
+            android:exported="true" />
+        <activity
+            android:name=".class5math"
+            android:exported="true" />
+        <activity
+            android:name=".class5social"
+            android:exported="true" />
+        <activity
+            android:name=".class5english"
+            android:exported="true" />
+        <activity
+            android:name=".class4ganit"
+            android:exported="true" />
+        <activity
+            android:name=".class4science"
+            android:exported="true" />
+        <activity
+            android:name=".class4social"
+            android:exported="true" />
+        <activity
+            android:name=".class4math"
+            android:exported="true" />
+        <activity
+            android:name=".class4english"
+            android:exported="true" />
+        <activity
+            android:name=".class3socialss"
+            android:exported="true" />
+        <activity
+            android:name=".class3myenglish"
+            android:exported="true" />
+        <activity
+            android:name=".class3science"
+            android:exported="true" />
+        <activity
+            android:name=".class3math"
+            android:exported="true" />
+        <activity
+            android:name=".class3english"
+            android:exported="true" />
+        <activity
+            android:name=".class2english"
+            android:exported="true" />
+        <activity
+            android:name=".class2socialss"
+            android:exported="true" />
+        <activity
+            android:name=".class2science"
+            android:exported="true" />
+        <activity
+            android:name=".class2math"
+            android:exported="true" />
+        <activity
+            android:name=".class1nepali"
+            android:exported="true" />
+        <activity
+            android:name=".class1math"
+            android:exported="true" />
+        <activity
+            android:name=".class1hamroserofero"
+            android:exported="true" />
+        <activity
+            android:name=".class1english"
+            android:exported="true" />
+        <activity
+            android:name=".highersecondary"
+            android:exported="true" />
+        <activity
+            android:name=".secondary"
+            android:exported="true" />
+        <activity
+            android:name=".lowersecondary"
+            android:exported="true" />
+        <activity
+            android:name=".primarylevel"
+            android:exported="true" />
+        <activity
+            android:name=".solutionbook_class12"
+            android:exported="true" />
+        <activity
+            android:name=".solutionbook_class11"
+            android:exported="true" />
+        <activity
+            android:name=".solutionbook_class10"
+            android:exported="true" />
+        <activity
+            android:name=".solutionbook_class9"
+            android:exported="true" />
+        <activity
+            android:name=".solutionbook_class8"
+            android:exported="true" />
+        <activity
+            android:name=".modelquestion_class12"
+            android:exported="true" />
+        <activity
+            android:name=".modelquestion_class11"
+            android:exported="true" />
+        <activity
+            android:name=".modelquestion_class10"
+            android:exported="true" />
+        <activity
+            android:name=".modelquestion_class9"
+            android:exported="true" />
+        <activity
+            android:name=".modelquestion_class8"
+            android:exported="true" />
+        <activity
+            android:name=".terms_and_conditions"
+            android:exported="true" />
+        <activity
+            android:name=".introactivity"
+            android:exported="true" />
+        <activity android:name=".solution" />
+        <activity android:name=".gradingsystempdf" />
+        <activity android:name=".Nepaledsystempdf" />
+
+
+        <activity android:name=".Homepage" />
+
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/FullScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

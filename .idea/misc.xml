@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_grade8.xml" value="0.13177083333333334" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_gradingsystempdf.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_highersecondary.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_homepage.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_lowersecondary.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_main.xml" value="0.17798913043478262" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_nepaledsystempdf.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_primarylevel.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_secondary.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_solution.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_solutionbook_class11.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_solutionincomp.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_solutionwilladdsoon.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_terms_and_conditions.xml" value="0.18432971014492755" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/header.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryNepal/app/src/main/res/menu/bottom_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/BloodyE/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_grade10.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/BloodyE/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_homepage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/BloodyE/AndroidStudioProjects/LibraryNepal/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
